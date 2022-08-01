@@ -460,3 +460,6 @@ if filereadable(expand(custom_configs_path))
   execute "source " . custom_configs_path
 endif
 
+"Natürlich auch Perl lieben wir 
+Plug 'vim-perl/vim-perl'
+"Wer will kann dies auch in seine nvim fetzen mit dem unterschied aber [Plugin 'vim-perl/vim-perl']
